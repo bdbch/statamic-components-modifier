@@ -1,0 +1,19 @@
+{
+    "name": "bdbch/statamic-components",
+    "autoload": {
+        "psr-4": {
+            "Bdbch\\StatamicComponents\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Components",
+            "description": "This addon allows developers to develop nestable components that can be rendered on any type of page."
+        },
+        "laravel": {
+            "providers": [
+                "Bdbch\\StatamicComponents\\ServiceProvider"
+            ]
+        }
+    }
+}
